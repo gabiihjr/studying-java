@@ -12,5 +12,9 @@ public class CreateAccount {
 
         System.out.println("First account has " + firstAccount.balance);
         System.out.println("Second account has " + secondAccount.balance);
+
+        System.out.println(firstAccount.branch);
+        System.out.println(firstAccount.number);
+
     }
 }
