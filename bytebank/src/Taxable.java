@@ -1,3 +1,3 @@
-public interface Tribute {
+public interface Taxable {
     double getValueTax();
 }

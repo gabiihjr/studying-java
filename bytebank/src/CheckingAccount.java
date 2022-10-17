@@ -1,4 +1,4 @@
-public class CheckingAccount extends Account{
+public class CheckingAccount extends Account implements Taxable {
 
     public CheckingAccount() {
         super();
@@ -10,5 +10,10 @@ public class CheckingAccount extends Account{
     public boolean withdraw(double value) {
         double valueToWithdraw = value + 0.2;
         return super.withdraw(valueToWithdraw);
+    }
+
+    @Override
+    public double getValueTax() {
+        return 0;
     }
 }
