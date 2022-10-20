@@ -80,7 +80,6 @@ public class ParkingSpotDto {
     }
 
     public String getBlock() {
-        //
         return block;
     }
 
